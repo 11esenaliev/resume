@@ -1,0 +1,79 @@
+body {
+    background-color:  #e8e8e8;
+}
+
+.add-block {
+    display: flex;
+    justify-content: center;
+}
+
+.add-form {
+    width: 650px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 9px 12px 14px -8px rgba(77, 0, 0, 0.81);
+    -moz-box-shadow: 9px 12px 14px -8px rgba(77, 0, 0, 0.81);
+    box-shadow: 9px 12px 14px -8px rgba(77, 0, 0, 0.81);
+    margin-top: 15px;
+
+}
+
+.add-form input, 
+.add-form select {
+    margin: 10px 0;
+}
+
+.card-image {
+    height: 200px;
+    object-fit: contain
+}
+
+.card-description {
+    height: 100px;
+    overflow: hidden
+}
+
+.card {
+    -webkit-box-shadow: 9px 12px 14px -8px rgba(77, 0, 0, 0.81);
+    -moz-box-shadow: 9px 12px 14px -8px rgba(77, 0, 0, 0.81);
+    box-shadow: 9px 12px 14px -8px rgba(77, 0, 0, 0.81);
+    border-radius: 6px;
+}
+
+.btn-delete  img, .btn-edit img{
+    width: 20px;
+}
+
+.btn-delete,
+.btn-edit {
+    border: none;
+    background: transparent;
+}
+
+.edit-form input, .edit-form-select {
+    -webkit-box-shadow: 9px 12px 14px -8px rgba(77, 0, 0, 0.81);
+    -moz-box-shadow: 9px 12px 14px -8px rgba(77, 0, 0, 0.81);
+    box-shadow: 9px 12px 14px -8px rgba(77, 0, 0, 0.81);
+    margin: 10px 0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+.pagination button {
+    margin: 5px;
+}
+
+.search-block {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.inp-search {
+    max-width: 650px;
+    width: 100%;
+}
